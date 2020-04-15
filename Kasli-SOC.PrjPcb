@@ -480,23 +480,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document27]
-DocumentPath=Kasli-SOC.Annotation
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document28]
 DocumentPath=Schematics\Kasli-SOC_bank13.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -513,7 +496,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=Schematics\Kasli-SOC_USB_Serial_Quad.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +513,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document29]
 DocumentPath=Schematics\Kasli-SOC_ETH_PHY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +530,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XANGFSFT
 
-[Document31]
+[Document30]
 DocumentPath=Schematics\Kasli-SOC_ETH_PHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -564,7 +547,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document32]
+[Document31]
 DocumentPath=Kasli-SOC.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -708,114 +691,6 @@ Variation54=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|Alternat
 Variation55=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart= 
 Variation56=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
-
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_BOM\Bill of Materials-Kasli-SOC.xls
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_NC Drill\Kasli-SOC-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_NC Drill\Kasli-SOC-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_NC Drill\Kasli-SOC.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.G1
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.G2
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.G3
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GM1
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GP1
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GP2
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GP3
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GP4
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GP5
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_NC Drill\Kasli-SOC.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument24]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.REP
-DItemRevisionGUID=
-
-[GeneratedDocument25]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Gerber\Kasli-SOC.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument26]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Pick Place\Pick Place for Kasli-SOC.csv
-DItemRevisionGUID=
-
-[GeneratedDocument27]
-DocumentPath=Project Outputs for Kasli-SOC\Folder Structure\Kasli-SOC_Pick Place\Pick Place for Kasli-SOC.txt
-DItemRevisionGUID=
 
 [Configuration1]
 Name=Default Configuration
