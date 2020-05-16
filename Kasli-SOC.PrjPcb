@@ -480,7 +480,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document27]
-DocumentPath=Schematics\Kasli-SOC_bank13.Harness
+DocumentPath=Kasli-SOC.Annotation
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -497,7 +497,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document28]
-DocumentPath=Schematics\Kasli-SOC_USB_Serial_Quad.Harness
+DocumentPath=Schematics\Kasli-SOC_bank13.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -514,6 +514,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document29]
+DocumentPath=Schematics\Kasli-SOC_USB_Serial_Quad.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document30]
 DocumentPath=Schematics\Kasli-SOC_ETH_PHY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -530,7 +547,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XANGFSFT
 
-[Document30]
+[Document31]
 DocumentPath=Schematics\Kasli-SOC_ETH_PHY.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -547,7 +564,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document31]
+[Document32]
 DocumentPath=Kasli-SOC.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -569,7 +586,7 @@ UniqueID=122F0B6E-98FC-43EC-BEA1-DC404694ABC3
 Description=Si549 CMOS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=56
+VariationCount=57
 Variation1=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation2=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation3=Designator=R36|UniqueId=\OIMUOFHT\HYNRWMDG|Kind=1|AlternatePart= 
@@ -626,6 +643,7 @@ Variation53=Designator=R297|UniqueId=\RGZRPHNL\FNGJTFHP\OJLGSQHB|Kind=1|Alternat
 Variation54=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|AlternatePart= 
 Variation55=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart= 
 Variation56=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart= 
+Variation57=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -633,7 +651,7 @@ UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=56
+VariationCount=57
 Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
@@ -690,6 +708,7 @@ Variation53=Designator=C123|UniqueId=\RGZRPHNL\ALHGDBCZ\EABFJTJP|Kind=1|Alternat
 Variation54=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|AlternatePart= 
 Variation55=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart= 
 Variation56=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart= 
+Variation57=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
