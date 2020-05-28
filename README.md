@@ -3,7 +3,7 @@ Xilinx ZynQ(R)  version of Kasli FPGA controller.
 
 ## Design Files
 
-Design files (schematics, PCB layouts, BOMs) can be found at [Fastino/Releases](https://github.com/sinara-hw/Kasli-SOC/releases).
+Design files (schematics, PCB layouts, BOMs) can be found at [Kasli-SOC/Releases](https://github.com/sinara-hw/Kasli-SOC/releases).
 
 ## Wiki
 
