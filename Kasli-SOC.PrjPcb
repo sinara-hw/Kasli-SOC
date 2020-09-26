@@ -564,12 +564,29 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document32]
+DocumentPath=Schematics\Kasli-SOC_bank500-501.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueID=122F0B6E-98FC-43EC-BEA1-DC404694ABC3
 Description=Si549 CMOS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=55
+VariationCount=59
 Variation1=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation2=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation3=Designator=R36|UniqueId=\OIMUOFHT\HYNRWMDG|Kind=1|AlternatePart= 
@@ -625,6 +642,10 @@ Variation52=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|Alternat
 Variation53=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart= 
 Variation54=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart= 
 Variation55=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
+Variation56=Designator=R63|UniqueId=\MBKHGXPA\WWBNSZTH|Kind=1|AlternatePart= 
+Variation57=Designator=R49|UniqueId=\ERBMYWND\YGCFOZZN|Kind=1|AlternatePart= 
+Variation58=Designator=R49|UniqueId=\KYORUGQG\UHEJSXOW|Kind=1|AlternatePart= 
+Variation59=Designator=R51|UniqueId=\KYORUGQG\WYFDGMEC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -632,7 +653,7 @@ UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=55
+VariationCount=59
 Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
@@ -688,6 +709,10 @@ Variation52=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|Alternat
 Variation53=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart= 
 Variation54=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart= 
 Variation55=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
+Variation56=Designator=R63|UniqueId=\MBKHGXPA\WWBNSZTH|Kind=1|AlternatePart= 
+Variation57=Designator=R49|UniqueId=\ERBMYWND\YGCFOZZN|Kind=1|AlternatePart= 
+Variation58=Designator=R49|UniqueId=\KYORUGQG\UHEJSXOW|Kind=1|AlternatePart= 
+Variation59=Designator=R51|UniqueId=\KYORUGQG\WYFDGMEC|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Configuration1]
@@ -1352,36 +1377,6 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Ansoft Neutral
-OutputName10=Ansoft Neutral (AutoPCB)
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-OutputType11=HyperLynx
-OutputName11=HyperLynx (AutoPCB)
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-OutputType12=Orcad v7 Capture Design
-OutputName12=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=P-CAD ASCII
-OutputName13=P-CAD ASCII (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=P-CAD V16 Schematic Design
-OutputName14=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=SiSoft
-OutputName15=SiSoft (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
