@@ -11,7 +11,7 @@ TimestampOutput=0
 SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
-PinSwapBy_Pin=1
+PinSwapBy_Pin=0
 AllowPortNetNames=1
 AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
@@ -688,7 +688,7 @@ UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=60
+VariationCount=62
 Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
@@ -749,7 +749,129 @@ Variation57=Designator=R49|UniqueId=\ERBMYWND\YGCFOZZN|Kind=1|AlternatePart=
 Variation58=Designator=R49|UniqueId=\KYORUGQG\UHEJSXOW|Kind=1|AlternatePart= 
 Variation59=Designator=R51|UniqueId=\KYORUGQG\WYFDGMEC|Kind=1|AlternatePart= 
 Variation60=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart= 
-ParamVariationCount=0
+Variation61=Designator=R37|UniqueId=\OIMUOFHT\NBBXXSML|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=False
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R37
+ParamVariation2=ParameterName=Case|VariantValue=0402
+ParamDesignator2=R37
+ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator3=R37
+ParamVariation4=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator4=R37
+ParamVariation5=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator5=R37
+ParamVariation6=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator6=R37
+ParamVariation7=ParameterName=Description|VariantValue=Resistor
+ParamDesignator7=R37
+ParamVariation8=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator8=R37
+ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator9=R37
+ParamVariation10=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator10=R37
+ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator11=R37
+ParamVariation12=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator12=R37
+ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator13=R37
+ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator14=R37
+ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator15=R37
+ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator16=R37
+ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator17=R37
+ParamVariation18=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator18=R37
+ParamVariation19=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator19=R37
+ParamVariation20=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator20=R37
+ParamVariation21=ParameterName=PCB3D|VariantValue= 
+ParamDesignator21=R37
+ParamVariation22=ParameterName=Pin Count|VariantValue=2
+ParamDesignator22=R37
+ParamVariation23=ParameterName=Pin Info|VariantValue= 
+ParamDesignator23=R37
+ParamVariation24=ParameterName=PressFit|VariantValue=No
+ParamDesignator24=R37
+ParamVariation25=ParameterName=Sense|VariantValue=No
+ParamDesignator25=R37
+ParamVariation26=ParameterName=Simulation|VariantValue= 
+ParamDesignator26=R37
+ParamVariation27=ParameterName=SMD|VariantValue=Yes
+ParamDesignator27=R37
+ParamVariation28=ParameterName=Socket|VariantValue=No
+ParamDesignator28=R37
+ParamVariation29=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator29=R37
+ParamVariation30=ParameterName=Value|VariantValue=0
+ParamDesignator30=R37
+Variation62=Designator=R225|UniqueId=\OIMUOFHT\EJSHAETY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=False
+ParamVariation31=ParameterName=Comment|VariantValue==Value
+ParamDesignator31=R225
+ParamVariation32=ParameterName=Case|VariantValue=0402
+ParamDesignator32=R225
+ParamVariation33=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator33=R225
+ParamVariation34=ParameterName=Component Type|VariantValue=Standard
+ParamDesignator34=R225
+ParamVariation35=ParameterName=CreateDate|VariantValue=03.12.2007
+ParamDesignator35=R225
+ParamVariation36=ParameterName=Database Table Name|VariantValue=Resistors SMD
+ParamDesignator36=R225
+ParamVariation37=ParameterName=Description|VariantValue=Resistor
+ParamDesignator37=R225
+ParamVariation38=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator38=R225
+ParamVariation39=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator39=R225
+ParamVariation40=ParameterName=Ibis Model|VariantValue= 
+ParamDesignator40=R225
+ParamVariation41=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator41=R225
+ParamVariation42=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator42=R225
+ParamVariation43=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator43=R225
+ParamVariation44=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator44=R225
+ParamVariation45=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator45=R225
+ParamVariation46=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator46=R225
+ParamVariation47=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator47=R225
+ParamVariation48=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator48=R225
+ParamVariation49=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator49=R225
+ParamVariation50=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator50=R225
+ParamVariation51=ParameterName=PCB3D|VariantValue= 
+ParamDesignator51=R225
+ParamVariation52=ParameterName=Pin Count|VariantValue=2
+ParamDesignator52=R225
+ParamVariation53=ParameterName=Pin Info|VariantValue= 
+ParamDesignator53=R225
+ParamVariation54=ParameterName=PressFit|VariantValue=No
+ParamDesignator54=R225
+ParamVariation55=ParameterName=Sense|VariantValue=No
+ParamDesignator55=R225
+ParamVariation56=ParameterName=Simulation|VariantValue= 
+ParamDesignator56=R225
+ParamVariation57=ParameterName=SMD|VariantValue=Yes
+ParamDesignator57=R225
+ParamVariation58=ParameterName=Socket|VariantValue=No
+ParamDesignator58=R225
+ParamVariation59=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator59=R225
+ParamVariation60=ParameterName=Value|VariantValue=0
+ParamDesignator60=R225
+ParamVariationCount=60
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Kasli-SOC\Si549 CMOS\Kasli-SOC_BOM\Bill of Materials-Kasli-SOC(Si549 CMOS).xls
@@ -1727,14 +1849,14 @@ Type3=2
 Type4=1
 Type5=2
 Type6=2
-Type7=0
+Type7=1
 Type8=1
 Type9=1
-Type10=0
+Type10=1
 Type11=2
-Type12=0
-Type13=0
-Type14=0
+Type12=1
+Type13=1
+Type14=1
 Type15=1
 Type16=1
 Type17=1
@@ -1753,7 +1875,7 @@ Type29=1
 Type30=1
 Type31=1
 Type32=2
-Type33=0
+Type33=1
 Type34=2
 Type35=0
 Type36=2
@@ -1780,10 +1902,10 @@ Type56=2
 Type57=1
 Type58=1
 Type59=2
-Type60=0
-Type61=0
-Type62=0
-Type63=0
+Type60=1
+Type61=1
+Type62=1
+Type63=1
 Type64=0
 Type65=2
 Type66=3
@@ -1831,7 +1953,7 @@ Type107=2
 Type108=2
 Type109=1
 Type110=1
-Type111=1
+Type111=2
 Type112=1
 Type113=1
 Type114=2
