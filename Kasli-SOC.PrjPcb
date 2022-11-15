@@ -694,7 +694,7 @@ UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=61
+VariationCount=81
 Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
@@ -992,6 +992,26 @@ ParamVariation118=ParameterName=Value|VariantValue=0.2-800MHz
 ParamDesignator118=OSC3
 Variation60=Designator=C294|UniqueId=\BSJCUYDM|Kind=1|AlternatePart= 
 Variation61=Designator=C298|UniqueId=\OHOHCLMK|Kind=1|AlternatePart= 
+Variation62=Designator=IC44|UniqueId=\DOXAMTBP\RELGOESP|Kind=1|AlternatePart= 
+Variation63=Designator=IC45|UniqueId=\DOXAMTBP\HZDGDHQK|Kind=1|AlternatePart= 
+Variation64=Designator=C379|UniqueId=\DOXAMTBP\ZHXFIXXU|Kind=1|AlternatePart= 
+Variation65=Designator=R115|UniqueId=\DOXAMTBP\HHHDJAWQ|Kind=1|AlternatePart= 
+Variation66=Designator=R116|UniqueId=\DOXAMTBP\GIXXMDIW|Kind=1|AlternatePart= 
+Variation67=Designator=IC42|UniqueId=\DOXAMTBP\VVLPTZEV|Kind=1|AlternatePart= 
+Variation68=Designator=IC43|UniqueId=\DOXAMTBP\FQDRCEMS|Kind=1|AlternatePart= 
+Variation69=Designator=C378|UniqueId=\DOXAMTBP\PORTVHSJ|Kind=1|AlternatePart= 
+Variation70=Designator=C377|UniqueId=\DOXAMTBP\TBSQBKOP|Kind=1|AlternatePart= 
+Variation71=Designator=C361|UniqueId=\RGZRPHNL\ALHGDBCZ\EGVMOGYJ|Kind=0|AlternatePart= 
+Variation72=Designator=C366|UniqueId=\RGZRPHNL\ALHGDBCZ\XYFEPNTI|Kind=1|AlternatePart= 
+Variation73=Designator=C367|UniqueId=\RGZRPHNL\ALHGDBCZ\HVVMDCYK|Kind=1|AlternatePart= 
+Variation74=Designator=C372|UniqueId=\RGZRPHNL\ALHGDBCZ\GTQFMMNY|Kind=1|AlternatePart= 
+Variation75=Designator=C373|UniqueId=\RGZRPHNL\ALHGDBCZ\NHGXZQQU|Kind=1|AlternatePart= 
+Variation76=Designator=IC38|UniqueId=\RGZRPHNL\ALHGDBCZ\WCUUKZYM|Kind=1|AlternatePart= 
+Variation77=Designator=IC35|UniqueId=\RGZRPHNL\ALHGDBCZ\ETFRFXAI|Kind=1|AlternatePart= 
+Variation78=Designator=IC33|UniqueId=\RGZRPHNL\ALHGDBCZ\ISUXUYMF|Kind=1|AlternatePart= 
+Variation79=Designator=IC34|UniqueId=\RGZRPHNL\ALHGDBCZ\ONLBFREU|Kind=1|AlternatePart= 
+Variation80=Designator=IC36|UniqueId=\RGZRPHNL\ALHGDBCZ\NFVEGEUB|Kind=1|AlternatePart= 
+Variation81=Designator=R92|UniqueId=\RGZRPHNL\ALHGDBCZ\UMZEMMJK|Kind=0|AlternatePart= 
 ParamVariationCount=118
 
 [Configuration1]
@@ -1010,7 +1030,7 @@ OutputDir=
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=PCADNetlist
 OutputName1=PCAD Netlist
@@ -1116,7 +1136,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1226,7 +1246,7 @@ PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Test Points For Assembly
 OutputName1=Test Point Report
@@ -1250,7 +1270,7 @@ PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=CompositeDrill
 OutputName1=Composite Drill Drawing
@@ -1322,7 +1342,7 @@ OutputDefault12=0
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=SimpleBOM
 OutputName1=Simple BOM
@@ -1403,7 +1423,7 @@ PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintS
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -1511,7 +1531,7 @@ PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -1555,7 +1575,7 @@ OutputDefault7=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=AutoCAD dwg/dxf PCB
 OutputName1=AutoCAD dwg/dxf File PCB
@@ -1612,41 +1632,11 @@ OutputName11=Export STEP
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=Ansoft Neutral
-OutputName12=Ansoft Neutral (AutoPCB)
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-OutputType13=HyperLynx
-OutputName13=HyperLynx (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=Orcad v7 Capture Design
-OutputName14=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=P-CAD ASCII
-OutputName15=P-CAD ASCII (AutoPCB)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD V16 Schematic Design
-OutputName16=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=SiSoft
-OutputName17=SiSoft (AutoPCB)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
