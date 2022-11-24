@@ -631,7 +631,7 @@ UniqueID=122F0B6E-98FC-43EC-BEA1-DC404694ABC3
 Description=Si549 CMOS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=55
+VariationCount=56
 Variation1=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation2=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation3=Designator=R36|UniqueId=\OIMUOFHT\HYNRWMDG|Kind=1|AlternatePart= 
@@ -687,6 +687,7 @@ Variation52=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|Alternat
 Variation53=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart= 
 Variation54=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
 Variation55=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart= 
+Variation56=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -694,7 +695,7 @@ UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=81
+VariationCount=82
 Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
 Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
 Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
@@ -1012,6 +1013,7 @@ Variation78=Designator=IC33|UniqueId=\RGZRPHNL\ALHGDBCZ\ISUXUYMF|Kind=1|Alternat
 Variation79=Designator=IC34|UniqueId=\RGZRPHNL\ALHGDBCZ\ONLBFREU|Kind=1|AlternatePart= 
 Variation80=Designator=IC36|UniqueId=\RGZRPHNL\ALHGDBCZ\NFVEGEUB|Kind=1|AlternatePart= 
 Variation81=Designator=R92|UniqueId=\RGZRPHNL\ALHGDBCZ\UMZEMMJK|Kind=0|AlternatePart= 
+Variation82=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart= 
 ParamVariationCount=118
 
 [Configuration1]
