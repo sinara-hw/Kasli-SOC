@@ -32,7 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for Kasli-SOC
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -1016,6 +1016,10 @@ Variation81=Designator=R92|UniqueId=\RGZRPHNL\ALHGDBCZ\UMZEMMJK|Kind=0|Alternate
 Variation82=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart= 
 ParamVariationCount=118
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Kasli-SOC\Design Rule Check - Kasli-SOC.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -1027,7 +1031,7 @@ ContentTypeGUID=
 ConfigurationType=
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Kasli-SOC
 
 [OutputGroup1]
 Name=Netlist Outputs
