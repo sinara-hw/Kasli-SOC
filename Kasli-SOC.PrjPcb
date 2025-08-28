@@ -32,6 +32,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
+ConstraintManagerFlow=0
 IsVirtualBomDocumentRemoved=0
 OutputPath=
 LogFolderPath=
@@ -373,23 +374,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document20]
-DocumentPath=PCB-Layout\Kasli-SOC.PCBDOC
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FALOBWGM
-
-[Document21]
 DocumentPath=Schematics\Kasli-SOC_ClockRecovery.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -406,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=OVJKCMWH
 
-[Document22]
+[Document21]
 DocumentPath=Schematics\Kasli-SOC_ClockRecovery.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -423,7 +407,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document23]
+[Document22]
 DocumentPath=Schematics\Kasli-SOC_MUX_I2C.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -440,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document24]
+[Document23]
 DocumentPath=Schematics\Kasli-SOC_SFP.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -457,7 +441,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document24]
 DocumentPath=Schematics\Kasli-SOC_IDC_EXT_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -474,7 +458,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RXYNIQGX
 
-[Document26]
+[Document25]
 DocumentPath=Schematics\Kasli-SOC_IDC_EXT_Connectors.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -491,7 +475,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document26]
 DocumentPath=Schematics\Kasli-SOC_bank13.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -508,7 +492,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document28]
+[Document27]
 DocumentPath=Schematics\Kasli-SOC_USB_Serial_Quad.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -524,6 +508,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document28]
+DocumentPath=PCB-Layout\Kasli-SOC.PCBDOC
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FALOBWGM
 
 [Document29]
 DocumentPath=Schematics\Kasli-SOC_ETH_PHY.SchDoc
@@ -627,395 +628,522 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document35]
+DocumentPath=Schematics\Kasli-SOC_PWR.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
-UniqueID=122F0B6E-98FC-43EC-BEA1-DC404694ABC3
+UniqueId=122F0B6E-98FC-43EC-BEA1-DC404694ABC3
 Description=Si549 CMOS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=56
-Variation1=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
-Variation2=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
-Variation3=Designator=R36|UniqueId=\OIMUOFHT\HYNRWMDG|Kind=1|AlternatePart= 
-Variation4=Designator=R244|UniqueId=\OIMUOFHT\IGZEJOZF|Kind=1|AlternatePart= 
-Variation5=Designator=R245|UniqueId=\OIMUOFHT\TSCHGYMW|Kind=1|AlternatePart= 
-Variation6=Designator=R97|UniqueId=\OIMUOFHT\ENXXINIY|Kind=1|AlternatePart= 
-Variation7=Designator=R39|UniqueId=\OIMUOFHT\THUPQFIA|Kind=1|AlternatePart= 
-Variation8=Designator=R40|UniqueId=\OIMUOFHT\FPVHEEIU|Kind=1|AlternatePart= 
-Variation9=Designator=C189|UniqueId=\OIMUOFHT\EAWUCXAD|Kind=1|AlternatePart= 
-Variation10=Designator=R242|UniqueId=\OIMUOFHT\KDHWZBRU|Kind=1|AlternatePart= 
-Variation11=Designator=R47|UniqueId=\OIMUOFHT\QYQOBBCQ|Kind=1|AlternatePart= 
-Variation12=Designator=R48|UniqueId=\OIMUOFHT\UKILZCLD|Kind=1|AlternatePart= 
-Variation13=Designator=R152|UniqueId=\OIMUOFHT\MBIQLCXH|Kind=1|AlternatePart= 
-Variation14=Designator=R153|UniqueId=\OIMUOFHT\TPUGUJGC|Kind=1|AlternatePart= 
-Variation15=Designator=R53|UniqueId=\GBETOPOY\RJBIEONN|Kind=1|AlternatePart= 
-Variation16=Designator=R65|UniqueId=\KYORUGQG\WLKBXBHP|Kind=1|AlternatePart= 
-Variation17=Designator=R331|UniqueId=\RGZRPHNL\ALHGDBCZ\ZRJPOXLI|Kind=1|AlternatePart= 
-Variation18=Designator=R333|UniqueId=\RGZRPHNL\ALHGDBCZ\EQHBBKKU|Kind=1|AlternatePart= 
-Variation19=Designator=R340|UniqueId=\RGZRPHNL\ALHGDBCZ\WWNMKRLV|Kind=1|AlternatePart= 
-Variation20=Designator=R342|UniqueId=\RGZRPHNL\ALHGDBCZ\XDHNQKWC|Kind=1|AlternatePart= 
-Variation21=Designator=R344|UniqueId=\RGZRPHNL\ALHGDBCZ\KZDFRYEZ|Kind=1|AlternatePart= 
-Variation22=Designator=R346|UniqueId=\RGZRPHNL\ALHGDBCZ\HPQSJQDH|Kind=1|AlternatePart= 
-Variation23=Designator=R329|UniqueId=\RGZRPHNL\ALHGDBCZ\BEOLPYQJ|Kind=1|AlternatePart= 
-Variation24=Designator=R330|UniqueId=\RGZRPHNL\ALHGDBCZ\XDFJQQAZ|Kind=1|AlternatePart= 
-Variation25=Designator=R332|UniqueId=\RGZRPHNL\ALHGDBCZ\PLXVQRWV|Kind=1|AlternatePart= 
-Variation26=Designator=R334|UniqueId=\RGZRPHNL\ALHGDBCZ\MXILNOQM|Kind=1|AlternatePart= 
-Variation27=Designator=R341|UniqueId=\RGZRPHNL\ALHGDBCZ\JXECSUYC|Kind=1|AlternatePart= 
-Variation28=Designator=R343|UniqueId=\RGZRPHNL\ALHGDBCZ\TGOJYMED|Kind=1|AlternatePart= 
-Variation29=Designator=R345|UniqueId=\RGZRPHNL\ALHGDBCZ\RQQEXRVR|Kind=1|AlternatePart= 
-Variation30=Designator=R347|UniqueId=\RGZRPHNL\ALHGDBCZ\BBWOROZD|Kind=1|AlternatePart= 
-Variation31=Designator=R348|UniqueId=\RGZRPHNL\ALHGDBCZ\VXLPFFTO|Kind=1|AlternatePart= 
-Variation32=Designator=R350|UniqueId=\RGZRPHNL\ALHGDBCZ\TUFELJIY|Kind=1|AlternatePart= 
-Variation33=Designator=R352|UniqueId=\RGZRPHNL\ALHGDBCZ\JSCGQWRJ|Kind=1|AlternatePart= 
-Variation34=Designator=R354|UniqueId=\RGZRPHNL\ALHGDBCZ\GMEUOQUM|Kind=1|AlternatePart= 
-Variation35=Designator=R356|UniqueId=\RGZRPHNL\ALHGDBCZ\PMAUYOLV|Kind=1|AlternatePart= 
-Variation36=Designator=R358|UniqueId=\RGZRPHNL\ALHGDBCZ\IFWSHCGV|Kind=1|AlternatePart= 
-Variation37=Designator=R360|UniqueId=\RGZRPHNL\ALHGDBCZ\CKTYRBVO|Kind=1|AlternatePart= 
-Variation38=Designator=R351|UniqueId=\RGZRPHNL\ALHGDBCZ\UFNUVMUW|Kind=1|AlternatePart= 
-Variation39=Designator=R353|UniqueId=\RGZRPHNL\ALHGDBCZ\DRJIPHLU|Kind=1|AlternatePart= 
-Variation40=Designator=R355|UniqueId=\RGZRPHNL\ALHGDBCZ\DYXBTHVV|Kind=1|AlternatePart= 
-Variation41=Designator=R357|UniqueId=\RGZRPHNL\ALHGDBCZ\IRGDOHGL|Kind=1|AlternatePart= 
-Variation42=Designator=R359|UniqueId=\RGZRPHNL\ALHGDBCZ\UGSVAKVD|Kind=1|AlternatePart= 
-Variation43=Designator=R361|UniqueId=\RGZRPHNL\ALHGDBCZ\BAPKWNOA|Kind=1|AlternatePart= 
-Variation44=Designator=R349|UniqueId=\RGZRPHNL\ALHGDBCZ\WTAKDGYB|Kind=1|AlternatePart= 
-Variation45=Designator=J26|UniqueId=\RGZRPHNL\ZXLMHLVW|Kind=1|AlternatePart= 
-Variation46=Designator=C123|UniqueId=\RGZRPHNL\ALHGDBCZ\EABFJTJP|Kind=1|AlternatePart= 
-Variation47=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|AlternatePart= 
-Variation48=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart= 
-Variation49=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart= 
-Variation50=Designator=R297|UniqueId=\RGZRPHNL\FNGJTFHP\OJLGSQHB|Kind=1|AlternatePart= 
-Variation51=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|AlternatePart= 
-Variation52=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart= 
-Variation53=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart= 
-Variation54=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
-Variation55=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart= 
-Variation56=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart= 
-ParamVariationCount=0
+VariationCount=46
+Variation1=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart==Value
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R80
+Variation2=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart==Value
+ParamVariation2=ParameterName=Comment|VariantValue==Value
+ParamDesignator2=R13
+Variation3=Designator=R36|UniqueId=\OIMUOFHT\HYNRWMDG|Kind=1|AlternatePart==Value
+ParamVariation3=ParameterName=Comment|VariantValue==Value
+ParamDesignator3=R36
+Variation4=Designator=R97|UniqueId=\OIMUOFHT\ENXXINIY|Kind=1|AlternatePart==Value
+ParamVariation4=ParameterName=Comment|VariantValue==Value
+ParamDesignator4=R97
+Variation5=Designator=R39|UniqueId=\OIMUOFHT\THUPQFIA|Kind=1|AlternatePart==Value
+ParamVariation5=ParameterName=Comment|VariantValue==Value
+ParamDesignator5=R39
+Variation6=Designator=R40|UniqueId=\OIMUOFHT\FPVHEEIU|Kind=1|AlternatePart==Value
+ParamVariation6=ParameterName=Comment|VariantValue==Value
+ParamDesignator6=R40
+Variation7=Designator=C189|UniqueId=\OIMUOFHT\EAWUCXAD|Kind=1|AlternatePart==Value
+ParamVariation7=ParameterName=Comment|VariantValue==Value
+ParamDesignator7=C189
+Variation8=Designator=R242|UniqueId=\OIMUOFHT\KDHWZBRU|Kind=1|AlternatePart==Value
+ParamVariation8=ParameterName=Comment|VariantValue==Value
+ParamDesignator8=R242
+Variation9=Designator=R47|UniqueId=\OIMUOFHT\QYQOBBCQ|Kind=1|AlternatePart==Value
+ParamVariation9=ParameterName=Comment|VariantValue==Value
+ParamDesignator9=R47
+Variation10=Designator=R48|UniqueId=\OIMUOFHT\UKILZCLD|Kind=1|AlternatePart==Value
+ParamVariation10=ParameterName=Comment|VariantValue==Value
+ParamDesignator10=R48
+Variation11=Designator=R152|UniqueId=\OIMUOFHT\MBIQLCXH|Kind=1|AlternatePart==Value
+ParamVariation11=ParameterName=Comment|VariantValue==Value
+ParamDesignator11=R152
+Variation12=Designator=R153|UniqueId=\OIMUOFHT\TPUGUJGC|Kind=1|AlternatePart==Value
+ParamVariation12=ParameterName=Comment|VariantValue==Value
+ParamDesignator12=R153
+Variation13=Designator=R53|UniqueId=\GBETOPOY\RJBIEONN|Kind=1|AlternatePart==Value
+ParamVariation13=ParameterName=Comment|VariantValue==Value
+ParamDesignator13=R53
+Variation14=Designator=R65|UniqueId=\KYORUGQG\WLKBXBHP|Kind=1|AlternatePart==Value
+ParamVariation14=ParameterName=Comment|VariantValue==Value
+ParamDesignator14=R65
+Variation15=Designator=J26|UniqueId=\RGZRPHNL\ZXLMHLVW|Kind=1|AlternatePart==Family
+ParamVariation15=ParameterName=Comment|VariantValue==Family
+ParamDesignator15=J26
+Variation16=Designator=C123|UniqueId=\RGZRPHNL\ALHGDBCZ\EABFJTJP|Kind=1|AlternatePart=
+Variation17=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|AlternatePart=
+Variation18=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart=
+Variation19=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart=
+Variation20=Designator=R297|UniqueId=\RGZRPHNL\FNGJTFHP\OJLGSQHB|Kind=1|AlternatePart==Value
+ParamVariation16=ParameterName=Comment|VariantValue==Value
+ParamDesignator16=R297
+Variation21=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|AlternatePart==Value
+ParamVariation17=ParameterName=Comment|VariantValue==Value
+ParamDesignator17=R302
+Variation22=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart==Value
+ParamVariation18=ParameterName=Comment|VariantValue==Value
+ParamDesignator18=R305
+Variation23=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart==Value
+ParamVariation19=ParameterName=Comment|VariantValue==Value
+ParamDesignator19=R308
+Variation24=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart==Value
+ParamVariation20=ParameterName=Comment|VariantValue==Value
+ParamDesignator20=R114
+Variation25=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart==Value
+ParamVariation21=ParameterName=Comment|VariantValue==Value
+ParamDesignator21=R91
+Variation26=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart==Value
+ParamVariation22=ParameterName=Comment|VariantValue==Value
+ParamDesignator22=R122
+Variation27=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart==Value
+ParamVariation23=ParameterName=Comment|VariantValue==Value
+ParamDesignator23=R246
+Variation28=Designator=R247|UniqueId=\OIMUOFHT\HYAYYQNE|Kind=1|AlternatePart==Value
+ParamVariation24=ParameterName=Comment|VariantValue==Value
+ParamDesignator24=R247
+Variation29=Designator=IC42|UniqueId=\DOXAMTBP\VVLPTZEV|Kind=1|AlternatePart==Device
+ParamVariation25=ParameterName=Comment|VariantValue==Device
+ParamDesignator25=IC42
+Variation30=Designator=IC43|UniqueId=\DOXAMTBP\FQDRCEMS|Kind=1|AlternatePart==Device
+ParamVariation26=ParameterName=Comment|VariantValue==Device
+ParamDesignator26=IC43
+Variation31=Designator=IC44|UniqueId=\DOXAMTBP\RELGOESP|Kind=1|AlternatePart==Device
+ParamVariation27=ParameterName=Comment|VariantValue==Device
+ParamDesignator27=IC44
+Variation32=Designator=IC45|UniqueId=\DOXAMTBP\HZDGDHQK|Kind=1|AlternatePart==Device
+ParamVariation28=ParameterName=Comment|VariantValue==Device
+ParamDesignator28=IC45
+Variation33=Designator=IC38|UniqueId=\RGZRPHNL\ALHGDBCZ\WCUUKZYM|Kind=1|AlternatePart==Device
+ParamVariation29=ParameterName=Comment|VariantValue==Device
+ParamDesignator29=IC38
+Variation34=Designator=C377|UniqueId=\DOXAMTBP\TBSQBKOP|Kind=1|AlternatePart==Value
+ParamVariation30=ParameterName=Comment|VariantValue==Value
+ParamDesignator30=C377
+Variation35=Designator=C378|UniqueId=\DOXAMTBP\PORTVHSJ|Kind=1|AlternatePart==Value
+ParamVariation31=ParameterName=Comment|VariantValue==Value
+ParamDesignator31=C378
+Variation36=Designator=C379|UniqueId=\DOXAMTBP\ZHXFIXXU|Kind=1|AlternatePart==Value
+ParamVariation32=ParameterName=Comment|VariantValue==Value
+ParamDesignator32=C379
+Variation37=Designator=R115|UniqueId=\DOXAMTBP\HHHDJAWQ|Kind=1|AlternatePart==Value
+ParamVariation33=ParameterName=Comment|VariantValue==Value
+ParamDesignator33=R115
+Variation38=Designator=R116|UniqueId=\DOXAMTBP\GIXXMDIW|Kind=1|AlternatePart==Value
+ParamVariation34=ParameterName=Comment|VariantValue==Value
+ParamDesignator34=R116
+Variation39=Designator=IC33|UniqueId=\RGZRPHNL\ALHGDBCZ\ISUXUYMF|Kind=1|AlternatePart==Device
+ParamVariation35=ParameterName=Comment|VariantValue==Device
+ParamDesignator35=IC33
+Variation40=Designator=IC36|UniqueId=\RGZRPHNL\ALHGDBCZ\NFVEGEUB|Kind=1|AlternatePart==Device
+ParamVariation36=ParameterName=Comment|VariantValue==Device
+ParamDesignator36=IC36
+Variation41=Designator=IC35|UniqueId=\RGZRPHNL\ALHGDBCZ\ETFRFXAI|Kind=1|AlternatePart==Device
+ParamVariation37=ParameterName=Comment|VariantValue==Device
+ParamDesignator37=IC35
+Variation42=Designator=IC34|UniqueId=\RGZRPHNL\ALHGDBCZ\ONLBFREU|Kind=1|AlternatePart==Device
+ParamVariation38=ParameterName=Comment|VariantValue==Device
+ParamDesignator38=IC34
+Variation43=Designator=C372|UniqueId=\RGZRPHNL\ALHGDBCZ\GTQFMMNY|Kind=1|AlternatePart=
+Variation44=Designator=C373|UniqueId=\RGZRPHNL\ALHGDBCZ\NHGXZQQU|Kind=1|AlternatePart=
+Variation45=Designator=C366|UniqueId=\RGZRPHNL\ALHGDBCZ\XYFEPNTI|Kind=1|AlternatePart=
+Variation46=Designator=C367|UniqueId=\RGZRPHNL\ALHGDBCZ\HVVMDCYK|Kind=1|AlternatePart=
+ParamVariationCount=38
 
 [ProjectVariant2]
-UniqueID=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
+UniqueId=23BEF957-92DD-4DA5-AD46-2D4ABB5FFA8F
 Description=Si549 LVDS
 AllowFabrication=0
 ParameterCount=0
-VariationCount=82
-Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart= 
-Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart= 
-Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart= 
-Variation4=Designator=R247|UniqueId=\OIMUOFHT\HYAYYQNE|Kind=1|AlternatePart= 
-Variation5=Designator=R98|UniqueId=\OIMUOFHT\TIDROLHD|Kind=1|AlternatePart= 
-Variation6=Designator=R38|UniqueId=\OIMUOFHT\FGVMEKOC|Kind=1|AlternatePart= 
-Variation7=Designator=R39|UniqueId=\OIMUOFHT\THUPQFIA|Kind=1|AlternatePart= 
-Variation8=Designator=R40|UniqueId=\OIMUOFHT\FPVHEEIU|Kind=1|AlternatePart= 
-Variation9=Designator=R224|UniqueId=\OIMUOFHT\WAKUYHVP|Kind=1|AlternatePart= 
-Variation10=Designator=R242|UniqueId=\OIMUOFHT\KDHWZBRU|Kind=1|AlternatePart= 
-Variation11=Designator=R153|UniqueId=\OIMUOFHT\TPUGUJGC|Kind=1|AlternatePart= 
-Variation12=Designator=R152|UniqueId=\OIMUOFHT\MBIQLCXH|Kind=1|AlternatePart= 
-Variation13=Designator=R48|UniqueId=\OIMUOFHT\UKILZCLD|Kind=1|AlternatePart= 
-Variation14=Designator=R47|UniqueId=\OIMUOFHT\QYQOBBCQ|Kind=1|AlternatePart= 
-Variation15=Designator=R53|UniqueId=\GBETOPOY\RJBIEONN|Kind=1|AlternatePart= 
-Variation16=Designator=R65|UniqueId=\KYORUGQG\WLKBXBHP|Kind=1|AlternatePart= 
-Variation17=Designator=R329|UniqueId=\RGZRPHNL\ALHGDBCZ\BEOLPYQJ|Kind=1|AlternatePart= 
-Variation18=Designator=R331|UniqueId=\RGZRPHNL\ALHGDBCZ\ZRJPOXLI|Kind=1|AlternatePart= 
-Variation19=Designator=R333|UniqueId=\RGZRPHNL\ALHGDBCZ\EQHBBKKU|Kind=1|AlternatePart= 
-Variation20=Designator=R340|UniqueId=\RGZRPHNL\ALHGDBCZ\WWNMKRLV|Kind=1|AlternatePart= 
-Variation21=Designator=R342|UniqueId=\RGZRPHNL\ALHGDBCZ\XDHNQKWC|Kind=1|AlternatePart= 
-Variation22=Designator=R344|UniqueId=\RGZRPHNL\ALHGDBCZ\KZDFRYEZ|Kind=1|AlternatePart= 
-Variation23=Designator=R346|UniqueId=\RGZRPHNL\ALHGDBCZ\HPQSJQDH|Kind=1|AlternatePart= 
-Variation24=Designator=R348|UniqueId=\RGZRPHNL\ALHGDBCZ\VXLPFFTO|Kind=1|AlternatePart= 
-Variation25=Designator=R350|UniqueId=\RGZRPHNL\ALHGDBCZ\TUFELJIY|Kind=1|AlternatePart= 
-Variation26=Designator=R352|UniqueId=\RGZRPHNL\ALHGDBCZ\JSCGQWRJ|Kind=1|AlternatePart= 
-Variation27=Designator=R354|UniqueId=\RGZRPHNL\ALHGDBCZ\GMEUOQUM|Kind=1|AlternatePart= 
-Variation28=Designator=R356|UniqueId=\RGZRPHNL\ALHGDBCZ\PMAUYOLV|Kind=1|AlternatePart= 
-Variation29=Designator=R358|UniqueId=\RGZRPHNL\ALHGDBCZ\IFWSHCGV|Kind=1|AlternatePart= 
-Variation30=Designator=R360|UniqueId=\RGZRPHNL\ALHGDBCZ\CKTYRBVO|Kind=1|AlternatePart= 
-Variation31=Designator=R330|UniqueId=\RGZRPHNL\ALHGDBCZ\XDFJQQAZ|Kind=1|AlternatePart= 
-Variation32=Designator=R332|UniqueId=\RGZRPHNL\ALHGDBCZ\PLXVQRWV|Kind=1|AlternatePart= 
-Variation33=Designator=R334|UniqueId=\RGZRPHNL\ALHGDBCZ\MXILNOQM|Kind=1|AlternatePart= 
-Variation34=Designator=R341|UniqueId=\RGZRPHNL\ALHGDBCZ\JXECSUYC|Kind=1|AlternatePart= 
-Variation35=Designator=R343|UniqueId=\RGZRPHNL\ALHGDBCZ\TGOJYMED|Kind=1|AlternatePart= 
-Variation36=Designator=R345|UniqueId=\RGZRPHNL\ALHGDBCZ\RQQEXRVR|Kind=1|AlternatePart= 
-Variation37=Designator=R347|UniqueId=\RGZRPHNL\ALHGDBCZ\BBWOROZD|Kind=1|AlternatePart= 
-Variation38=Designator=R349|UniqueId=\RGZRPHNL\ALHGDBCZ\WTAKDGYB|Kind=1|AlternatePart= 
-Variation39=Designator=R351|UniqueId=\RGZRPHNL\ALHGDBCZ\UFNUVMUW|Kind=1|AlternatePart= 
-Variation40=Designator=R353|UniqueId=\RGZRPHNL\ALHGDBCZ\DRJIPHLU|Kind=1|AlternatePart= 
-Variation41=Designator=R355|UniqueId=\RGZRPHNL\ALHGDBCZ\DYXBTHVV|Kind=1|AlternatePart= 
-Variation42=Designator=R357|UniqueId=\RGZRPHNL\ALHGDBCZ\IRGDOHGL|Kind=1|AlternatePart= 
-Variation43=Designator=R359|UniqueId=\RGZRPHNL\ALHGDBCZ\UGSVAKVD|Kind=1|AlternatePart= 
-Variation44=Designator=R361|UniqueId=\RGZRPHNL\ALHGDBCZ\BAPKWNOA|Kind=1|AlternatePart= 
-Variation45=Designator=J26|UniqueId=\RGZRPHNL\ZXLMHLVW|Kind=1|AlternatePart= 
-Variation46=Designator=R297|UniqueId=\RGZRPHNL\FNGJTFHP\OJLGSQHB|Kind=1|AlternatePart= 
-Variation47=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|AlternatePart= 
-Variation48=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart= 
-Variation49=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart= 
-Variation50=Designator=C123|UniqueId=\RGZRPHNL\ALHGDBCZ\EABFJTJP|Kind=1|AlternatePart= 
-Variation51=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|AlternatePart= 
-Variation52=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart= 
-Variation53=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart= 
-Variation54=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart= 
-Variation55=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart= 
-Variation56=Designator=R37|UniqueId=\OIMUOFHT\NBBXXSML|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+VariationCount=50
+Variation1=Designator=R13|UniqueId=\QAVISBQV|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
-ParamDesignator1=R37
-ParamVariation2=ParameterName=Case|VariantValue=0402
-ParamDesignator2=R37
-ParamVariation3=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator3=R37
-ParamVariation4=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator4=R37
-ParamVariation5=ParameterName=CreateDate|VariantValue=03.12.2007
-ParamDesignator5=R37
-ParamVariation6=ParameterName=Database Table Name|VariantValue=Resistors SMD
-ParamDesignator6=R37
-ParamVariation7=ParameterName=Description|VariantValue=Resistor
-ParamDesignator7=R37
-ParamVariation8=ParameterName=Footprint|VariantValue=RESC1005X40N
-ParamDesignator8=R37
-ParamVariation9=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
-ParamDesignator9=R37
-ParamVariation10=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator10=R37
-ParamVariation11=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
-ParamDesignator11=R37
-ParamVariation12=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
-ParamDesignator12=R37
-ParamVariation13=ParameterName=Manufacturer|VariantValue=GENERIC
-ParamDesignator13=R37
-ParamVariation14=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
-ParamDesignator14=R37
-ParamVariation15=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
-ParamDesignator15=R37
-ParamVariation16=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
-ParamDesignator16=R37
-ParamVariation17=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
-ParamDesignator17=R37
-ParamVariation18=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator18=R37
-ParamVariation19=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
-ParamDesignator19=R37
-ParamVariation20=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
-ParamDesignator20=R37
-ParamVariation21=ParameterName=PCB3D|VariantValue= 
-ParamDesignator21=R37
-ParamVariation22=ParameterName=Pin Count|VariantValue=2
-ParamDesignator22=R37
-ParamVariation23=ParameterName=Pin Info|VariantValue= 
-ParamDesignator23=R37
-ParamVariation24=ParameterName=PressFit|VariantValue=No
+ParamDesignator1=R13
+Variation2=Designator=R80|UniqueId=\TDSAQFBN|Kind=1|AlternatePart==Value
+ParamVariation2=ParameterName=Comment|VariantValue==Value
+ParamDesignator2=R80
+Variation3=Designator=R246|UniqueId=\OIMUOFHT\SUURZBTA|Kind=1|AlternatePart==Value
+ParamVariation3=ParameterName=Comment|VariantValue==Value
+ParamDesignator3=R246
+Variation4=Designator=R247|UniqueId=\OIMUOFHT\HYAYYQNE|Kind=1|AlternatePart==Value
+ParamVariation4=ParameterName=Comment|VariantValue==Value
+ParamDesignator4=R247
+Variation5=Designator=R98|UniqueId=\OIMUOFHT\TIDROLHD|Kind=1|AlternatePart==Value
+ParamVariation5=ParameterName=Comment|VariantValue==Value
+ParamDesignator5=R98
+Variation6=Designator=R38|UniqueId=\OIMUOFHT\FGVMEKOC|Kind=1|AlternatePart==Value
+ParamVariation6=ParameterName=Comment|VariantValue==Value
+ParamDesignator6=R38
+Variation7=Designator=R39|UniqueId=\OIMUOFHT\THUPQFIA|Kind=1|AlternatePart==Value
+ParamVariation7=ParameterName=Comment|VariantValue==Value
+ParamDesignator7=R39
+Variation8=Designator=R40|UniqueId=\OIMUOFHT\FPVHEEIU|Kind=1|AlternatePart==Value
+ParamVariation8=ParameterName=Comment|VariantValue==Value
+ParamDesignator8=R40
+Variation9=Designator=R224|UniqueId=\OIMUOFHT\WAKUYHVP|Kind=1|AlternatePart==Value
+ParamVariation9=ParameterName=Comment|VariantValue==Value
+ParamDesignator9=R224
+Variation10=Designator=R242|UniqueId=\OIMUOFHT\KDHWZBRU|Kind=1|AlternatePart==Value
+ParamVariation10=ParameterName=Comment|VariantValue==Value
+ParamDesignator10=R242
+Variation11=Designator=R153|UniqueId=\OIMUOFHT\TPUGUJGC|Kind=1|AlternatePart==Value
+ParamVariation11=ParameterName=Comment|VariantValue==Value
+ParamDesignator11=R153
+Variation12=Designator=R152|UniqueId=\OIMUOFHT\MBIQLCXH|Kind=1|AlternatePart==Value
+ParamVariation12=ParameterName=Comment|VariantValue==Value
+ParamDesignator12=R152
+Variation13=Designator=R48|UniqueId=\OIMUOFHT\UKILZCLD|Kind=1|AlternatePart==Value
+ParamVariation13=ParameterName=Comment|VariantValue==Value
+ParamDesignator13=R48
+Variation14=Designator=R47|UniqueId=\OIMUOFHT\QYQOBBCQ|Kind=1|AlternatePart==Value
+ParamVariation14=ParameterName=Comment|VariantValue==Value
+ParamDesignator14=R47
+Variation15=Designator=R53|UniqueId=\GBETOPOY\RJBIEONN|Kind=1|AlternatePart==Value
+ParamVariation15=ParameterName=Comment|VariantValue==Value
+ParamDesignator15=R53
+Variation16=Designator=R65|UniqueId=\KYORUGQG\WLKBXBHP|Kind=1|AlternatePart==Value
+ParamVariation16=ParameterName=Comment|VariantValue==Value
+ParamDesignator16=R65
+Variation17=Designator=J26|UniqueId=\RGZRPHNL\ZXLMHLVW|Kind=1|AlternatePart==Family
+ParamVariation17=ParameterName=Comment|VariantValue==Family
+ParamDesignator17=J26
+Variation18=Designator=R297|UniqueId=\RGZRPHNL\FNGJTFHP\OJLGSQHB|Kind=1|AlternatePart==Value
+ParamVariation18=ParameterName=Comment|VariantValue==Value
+ParamDesignator18=R297
+Variation19=Designator=R302|UniqueId=\RGZRPHNL\FNGJTFHP\AFKHHWJD|Kind=1|AlternatePart==Value
+ParamVariation19=ParameterName=Comment|VariantValue==Value
+ParamDesignator19=R302
+Variation20=Designator=R305|UniqueId=\RGZRPHNL\FNGJTFHP\LGLIPXOC|Kind=1|AlternatePart==Value
+ParamVariation20=ParameterName=Comment|VariantValue==Value
+ParamDesignator20=R305
+Variation21=Designator=R308|UniqueId=\RGZRPHNL\FNGJTFHP\QAVRGHKG|Kind=1|AlternatePart==Value
+ParamVariation21=ParameterName=Comment|VariantValue==Value
+ParamDesignator21=R308
+Variation22=Designator=C123|UniqueId=\RGZRPHNL\ALHGDBCZ\EABFJTJP|Kind=1|AlternatePart=
+Variation23=Designator=C124|UniqueId=\RGZRPHNL\ALHGDBCZ\BBIBNOGR|Kind=1|AlternatePart=
+Variation24=Designator=C135|UniqueId=\RGZRPHNL\ALHGDBCZ\YZUWOUIB|Kind=1|AlternatePart=
+Variation25=Designator=C136|UniqueId=\RGZRPHNL\ALHGDBCZ\JYFIXGEZ|Kind=1|AlternatePart=
+Variation26=Designator=R114|UniqueId=\ERBMYWND\ZQBKJIDI|Kind=1|AlternatePart==Value
+ParamVariation22=ParameterName=Comment|VariantValue==Value
+ParamDesignator22=R114
+Variation27=Designator=R91|UniqueId=\TGSPOKOV\KNIVPKNT|Kind=1|AlternatePart==Value
+ParamVariation23=ParameterName=Comment|VariantValue==Value
+ParamDesignator23=R91
+Variation28=Designator=R37|UniqueId=\OIMUOFHT\NBBXXSML|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation24=ParameterName=Comment|VariantValue==Value
 ParamDesignator24=R37
-ParamVariation25=ParameterName=Sense|VariantValue=No
+ParamVariation25=ParameterName=Case|VariantValue=0402
 ParamDesignator25=R37
-ParamVariation26=ParameterName=Simulation|VariantValue= 
+ParamVariation26=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator26=R37
-ParamVariation27=ParameterName=SMD|VariantValue=Yes
+ParamVariation27=ParameterName=Component Type|VariantValue=Standard
 ParamDesignator27=R37
-ParamVariation28=ParameterName=Socket|VariantValue=No
+ParamVariation28=ParameterName=CreateDate|VariantValue=03.12.2007
 ParamDesignator28=R37
-ParamVariation29=ParameterName=Status|VariantValue=Not Recommended
+ParamVariation29=ParameterName=Database Table Name|VariantValue=Resistors SMD
 ParamDesignator29=R37
-ParamVariation30=ParameterName=Value|VariantValue=0
+ParamVariation30=ParameterName=Description|VariantValue=Resistor
 ParamDesignator30=R37
-Variation57=Designator=R225|UniqueId=\OIMUOFHT\EJSHAETY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
-ParamVariation31=ParameterName=Comment|VariantValue==Value
-ParamDesignator31=R225
-ParamVariation32=ParameterName=Case|VariantValue=0402
-ParamDesignator32=R225
-ParamVariation33=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator33=R225
-ParamVariation34=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator34=R225
-ParamVariation35=ParameterName=CreateDate|VariantValue=03.12.2007
-ParamDesignator35=R225
-ParamVariation36=ParameterName=Database Table Name|VariantValue=Resistors SMD
-ParamDesignator36=R225
-ParamVariation37=ParameterName=Description|VariantValue=Resistor
-ParamDesignator37=R225
-ParamVariation38=ParameterName=Footprint|VariantValue=RESC1005X40N
-ParamDesignator38=R225
-ParamVariation39=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
-ParamDesignator39=R225
-ParamVariation40=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator40=R225
-ParamVariation41=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
-ParamDesignator41=R225
-ParamVariation42=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
-ParamDesignator42=R225
-ParamVariation43=ParameterName=Manufacturer|VariantValue=GENERIC
-ParamDesignator43=R225
-ParamVariation44=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
-ParamDesignator44=R225
-ParamVariation45=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
-ParamDesignator45=R225
-ParamVariation46=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
-ParamDesignator46=R225
-ParamVariation47=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
-ParamDesignator47=R225
-ParamVariation48=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator48=R225
-ParamVariation49=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
-ParamDesignator49=R225
-ParamVariation50=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
-ParamDesignator50=R225
-ParamVariation51=ParameterName=PCB3D|VariantValue= 
-ParamDesignator51=R225
-ParamVariation52=ParameterName=Pin Count|VariantValue=2
-ParamDesignator52=R225
-ParamVariation53=ParameterName=Pin Info|VariantValue= 
-ParamDesignator53=R225
-ParamVariation54=ParameterName=PressFit|VariantValue=No
+ParamVariation31=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator31=R37
+ParamVariation32=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator32=R37
+ParamVariation33=ParameterName=Ibis Model|VariantValue=
+ParamDesignator33=R37
+ParamVariation34=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator34=R37
+ParamVariation35=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator35=R37
+ParamVariation36=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator36=R37
+ParamVariation37=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator37=R37
+ParamVariation38=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator38=R37
+ParamVariation39=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator39=R37
+ParamVariation40=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator40=R37
+ParamVariation41=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator41=R37
+ParamVariation42=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator42=R37
+ParamVariation43=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator43=R37
+ParamVariation44=ParameterName=PCB3D|VariantValue=
+ParamDesignator44=R37
+ParamVariation45=ParameterName=Pin Count|VariantValue=2
+ParamDesignator45=R37
+ParamVariation46=ParameterName=Pin Info|VariantValue=
+ParamDesignator46=R37
+ParamVariation47=ParameterName=PressFit|VariantValue=No
+ParamDesignator47=R37
+ParamVariation48=ParameterName=Sense|VariantValue=No
+ParamDesignator48=R37
+ParamVariation49=ParameterName=Simulation|VariantValue=
+ParamDesignator49=R37
+ParamVariation50=ParameterName=SMD|VariantValue=Yes
+ParamDesignator50=R37
+ParamVariation51=ParameterName=Socket|VariantValue=No
+ParamDesignator51=R37
+ParamVariation52=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator52=R37
+ParamVariation53=ParameterName=Value|VariantValue=0
+ParamDesignator53=R37
+Variation29=Designator=R225|UniqueId=\OIMUOFHT\EJSHAETY|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=Resistor - 1%|AltLibLink_DesignItemID=R0402_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC1005X40N|AltLibLink_IsSameFootprint=True
+ParamVariation54=ParameterName=Comment|VariantValue==Value
 ParamDesignator54=R225
-ParamVariation55=ParameterName=Sense|VariantValue=No
+ParamVariation55=ParameterName=Case|VariantValue=0402
 ParamDesignator55=R225
-ParamVariation56=ParameterName=Simulation|VariantValue= 
+ParamVariation56=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator56=R225
-ParamVariation57=ParameterName=SMD|VariantValue=Yes
+ParamVariation57=ParameterName=Component Type|VariantValue=Standard
 ParamDesignator57=R225
-ParamVariation58=ParameterName=Socket|VariantValue=No
+ParamVariation58=ParameterName=CreateDate|VariantValue=03.12.2007
 ParamDesignator58=R225
-ParamVariation59=ParameterName=Status|VariantValue=Not Recommended
+ParamVariation59=ParameterName=Database Table Name|VariantValue=Resistors SMD
 ParamDesignator59=R225
-ParamVariation60=ParameterName=Value|VariantValue=0
+ParamVariation60=ParameterName=Description|VariantValue=Resistor
 ParamDesignator60=R225
-Variation58=Designator=OSC1|UniqueId=\OIMUOFHT\IRXKGHLC|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\PS\Documents\liby\CernLib\CernLib\ICs And Semiconductors.DbLib/Crystals & Oscillators|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=ICs And Semiconductors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Crystals & Oscillators|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=OSC_SILICON-LAB_SI549-A|AltLibLink_IsSameFootprint=True
-ParamVariation61=ParameterName=Comment|VariantValue==Value
-ParamDesignator61=OSC1
-ParamVariation62=ParameterName=Bonding|VariantValue=No
-ParamDesignator62=OSC1
-ParamVariation63=ParameterName=ComponentHeight|VariantValue=1.33mm
-ParamDesignator63=OSC1
-ParamVariation64=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator64=OSC1
-ParamVariation65=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator65=OSC1
-ParamVariation66=ParameterName=CreateDate|VariantValue=27.11.2019
-ParamDesignator66=OSC1
-ParamVariation67=ParameterName=Database Table Name|VariantValue=Crystals & Oscillators
-ParamDesignator67=OSC1
-ParamVariation68=ParameterName=Description|VariantValue=Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
-ParamDesignator68=OSC1
-ParamVariation69=ParameterName=Footprint|VariantValue=OSC_SILICON-LAB_SI549-A
-ParamDesignator69=OSC1
-ParamVariation70=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\OSC_SILICON-LAB_SI549.pdf
-ParamDesignator70=OSC1
-ParamVariation71=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator71=OSC1
-ParamVariation72=ParameterName=LatestRevisionDate|VariantValue=02.12.2019
-ParamDesignator72=OSC1
-ParamVariation73=ParameterName=Library Reference|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
-ParamDesignator73=OSC1
-ParamVariation74=ParameterName=Manufacturer|VariantValue=SILICON LABS
-ParamDesignator74=OSC1
-ParamVariation75=ParameterName=Manufacturer Part Number|VariantValue=549BACB001937ABG
-ParamDesignator75=OSC1
-ParamVariation76=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator76=OSC1
-ParamVariation77=ParameterName=PackageDescription|VariantValue=Oscillator Si549 Series, 8 pins, 5x7mm
-ParamDesignator77=OSC1
-ParamVariation78=ParameterName=Part Description|VariantValue=0.2-800MHz, 1.8V/2.5V/3.3V ±20ppm LVDS, Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
-ParamDesignator78=OSC1
-ParamVariation79=ParameterName=Part Number|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
-ParamDesignator79=OSC1
-ParamVariation80=ParameterName=PCB3D|VariantValue= 
-ParamDesignator80=OSC1
-ParamVariation81=ParameterName=Pin Count|VariantValue=8
-ParamDesignator81=OSC1
-ParamVariation82=ParameterName=Pin Info|VariantValue= 
-ParamDesignator82=OSC1
-ParamVariation83=ParameterName=PressFit|VariantValue=No
-ParamDesignator83=OSC1
-ParamVariation84=ParameterName=Sense|VariantValue=No
+ParamVariation61=ParameterName=Footprint|VariantValue=RESC1005X40N
+ParamDesignator61=R225
+ParamVariation62=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\R0402_Phycomp_RC0402.pdf
+ParamDesignator62=R225
+ParamVariation63=ParameterName=Ibis Model|VariantValue=
+ParamDesignator63=R225
+ParamVariation64=ParameterName=LatestRevisionDate|VariantValue=17.10.2012
+ParamDesignator64=R225
+ParamVariation65=ParameterName=Library Reference|VariantValue=R0402_0R_JUMPER
+ParamDesignator65=R225
+ParamVariation66=ParameterName=Manufacturer|VariantValue=GENERIC
+ParamDesignator66=R225
+ParamVariation67=ParameterName=Manufacturer1 ComponentHeight|VariantValue=0.4mm
+ParamDesignator67=R225
+ParamVariation68=ParameterName=Manufacturer1 Example|VariantValue=YAGEO PHYCOMP
+ParamDesignator68=R225
+ParamVariation69=ParameterName=Manufacturer1 Part Number|VariantValue=232270591001L
+ParamDesignator69=R225
+ParamVariation70=ParameterName=Manufacturer Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator70=R225
+ParamVariation71=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator71=R225
+ParamVariation72=ParameterName=Part Description|VariantValue=1A (0.05R Max DC Resistance) Zero Ohm Jumper
+ParamDesignator72=R225
+ParamVariation73=ParameterName=Part Number|VariantValue=R0402_0R_JUMPER
+ParamDesignator73=R225
+ParamVariation74=ParameterName=PCB3D|VariantValue=
+ParamDesignator74=R225
+ParamVariation75=ParameterName=Pin Count|VariantValue=2
+ParamDesignator75=R225
+ParamVariation76=ParameterName=Pin Info|VariantValue=
+ParamDesignator76=R225
+ParamVariation77=ParameterName=PressFit|VariantValue=No
+ParamDesignator77=R225
+ParamVariation78=ParameterName=Sense|VariantValue=No
+ParamDesignator78=R225
+ParamVariation79=ParameterName=Simulation|VariantValue=
+ParamDesignator79=R225
+ParamVariation80=ParameterName=SMD|VariantValue=Yes
+ParamDesignator80=R225
+ParamVariation81=ParameterName=Socket|VariantValue=No
+ParamDesignator81=R225
+ParamVariation82=ParameterName=Status|VariantValue=Not Recommended
+ParamDesignator82=R225
+ParamVariation83=ParameterName=Value|VariantValue=0
+ParamDesignator83=R225
+Variation30=Designator=OSC1|UniqueId=\OIMUOFHT\IRXKGHLC|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\PS\Documents\liby\CernLib\CernLib\ICs And Semiconductors.DbLib/Crystals & Oscillators|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=ICs And Semiconductors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Crystals & Oscillators|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=OSC_SILICON-LAB_SI549-A|AltLibLink_IsSameFootprint=True
+ParamVariation84=ParameterName=Comment|VariantValue==Value
 ParamDesignator84=OSC1
-ParamVariation85=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation85=ParameterName=Bonding|VariantValue=No
 ParamDesignator85=OSC1
-ParamVariation86=ParameterName=Simulation|VariantValue= 
+ParamVariation86=ParameterName=ComponentHeight|VariantValue=1.33mm
 ParamDesignator86=OSC1
-ParamVariation87=ParameterName=SMD|VariantValue=Yes
+ParamVariation87=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator87=OSC1
-ParamVariation88=ParameterName=Socket|VariantValue=No
+ParamVariation88=ParameterName=Component Type|VariantValue=Standard
 ParamDesignator88=OSC1
-ParamVariation89=ParameterName=Value|VariantValue=0.2-800MHz
+ParamVariation89=ParameterName=CreateDate|VariantValue=27.11.2019
 ParamDesignator89=OSC1
-Variation59=Designator=OSC3|UniqueId=\OIMUOFHT\NKLWODKB|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\PS\Documents\liby\CernLib\CernLib\ICs And Semiconductors.DbLib/Crystals & Oscillators|AltLibLink_SymbolReference= |AltLibLink_DesignItemID=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=ICs And Semiconductors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Crystals & Oscillators|AltLibLink_VaultGUID= |AltLibLink_ItemGUID= |AltLibLink_RevisionGUID= |AltLibLink_Footprint=OSC_SILICON-LAB_SI549-A|AltLibLink_IsSameFootprint=True
-ParamVariation90=ParameterName=Comment|VariantValue==Value
-ParamDesignator90=OSC3
-ParamVariation91=ParameterName=Bonding|VariantValue=No
-ParamDesignator91=OSC3
-ParamVariation92=ParameterName=ComponentHeight|VariantValue=1.33mm
-ParamDesignator92=OSC3
-ParamVariation93=ParameterName=Component Kind|VariantValue=Standard
-ParamDesignator93=OSC3
-ParamVariation94=ParameterName=Component Type|VariantValue=Standard
-ParamDesignator94=OSC3
-ParamVariation95=ParameterName=CreateDate|VariantValue=27.11.2019
-ParamDesignator95=OSC3
-ParamVariation96=ParameterName=Database Table Name|VariantValue=Crystals & Oscillators
-ParamDesignator96=OSC3
-ParamVariation97=ParameterName=Description|VariantValue=Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
-ParamDesignator97=OSC3
-ParamVariation98=ParameterName=Footprint|VariantValue=OSC_SILICON-LAB_SI549-A
-ParamDesignator98=OSC3
-ParamVariation99=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\OSC_SILICON-LAB_SI549.pdf
-ParamDesignator99=OSC3
-ParamVariation100=ParameterName=Ibis Model|VariantValue= 
-ParamDesignator100=OSC3
-ParamVariation101=ParameterName=LatestRevisionDate|VariantValue=02.12.2019
-ParamDesignator101=OSC3
-ParamVariation102=ParameterName=Library Reference|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
-ParamDesignator102=OSC3
-ParamVariation103=ParameterName=Manufacturer|VariantValue=SILICON LABS
-ParamDesignator103=OSC3
-ParamVariation104=ParameterName=Manufacturer Part Number|VariantValue=549BACB001937ABG
-ParamDesignator104=OSC3
-ParamVariation105=ParameterName=Mounted|VariantValue=Yes
-ParamDesignator105=OSC3
-ParamVariation106=ParameterName=PackageDescription|VariantValue=Oscillator Si549 Series, 8 pins, 5x7mm
-ParamDesignator106=OSC3
-ParamVariation107=ParameterName=Part Description|VariantValue=0.2-800MHz, 1.8V/2.5V/3.3V ±20ppm LVDS, Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
-ParamDesignator107=OSC3
-ParamVariation108=ParameterName=Part Number|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
-ParamDesignator108=OSC3
-ParamVariation109=ParameterName=PCB3D|VariantValue= 
-ParamDesignator109=OSC3
-ParamVariation110=ParameterName=Pin Count|VariantValue=8
-ParamDesignator110=OSC3
-ParamVariation111=ParameterName=Pin Info|VariantValue= 
-ParamDesignator111=OSC3
-ParamVariation112=ParameterName=PressFit|VariantValue=No
-ParamDesignator112=OSC3
-ParamVariation113=ParameterName=Sense|VariantValue=No
+ParamVariation90=ParameterName=Database Table Name|VariantValue=Crystals & Oscillators
+ParamDesignator90=OSC1
+ParamVariation91=ParameterName=Description|VariantValue=Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
+ParamDesignator91=OSC1
+ParamVariation92=ParameterName=Footprint|VariantValue=OSC_SILICON-LAB_SI549-A
+ParamDesignator92=OSC1
+ParamVariation93=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\OSC_SILICON-LAB_SI549.pdf
+ParamDesignator93=OSC1
+ParamVariation94=ParameterName=Ibis Model|VariantValue=
+ParamDesignator94=OSC1
+ParamVariation95=ParameterName=LatestRevisionDate|VariantValue=02.12.2019
+ParamDesignator95=OSC1
+ParamVariation96=ParameterName=Library Reference|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
+ParamDesignator96=OSC1
+ParamVariation97=ParameterName=Manufacturer|VariantValue=SILICON LABS
+ParamDesignator97=OSC1
+ParamVariation98=ParameterName=Manufacturer Part Number|VariantValue=549BACB001937ABG
+ParamDesignator98=OSC1
+ParamVariation99=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator99=OSC1
+ParamVariation100=ParameterName=PackageDescription|VariantValue=Oscillator Si549 Series, 8 pins, 5x7mm
+ParamDesignator100=OSC1
+ParamVariation101=ParameterName=Part Description|VariantValue=0.2-800MHz, 1.8V/2.5V/3.3V ±20ppm LVDS, Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
+ParamDesignator101=OSC1
+ParamVariation102=ParameterName=Part Number|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
+ParamDesignator102=OSC1
+ParamVariation103=ParameterName=PCB3D|VariantValue=
+ParamDesignator103=OSC1
+ParamVariation104=ParameterName=Pin Count|VariantValue=8
+ParamDesignator104=OSC1
+ParamVariation105=ParameterName=Pin Info|VariantValue=
+ParamDesignator105=OSC1
+ParamVariation106=ParameterName=PressFit|VariantValue=No
+ParamDesignator106=OSC1
+ParamVariation107=ParameterName=Sense|VariantValue=No
+ParamDesignator107=OSC1
+ParamVariation108=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator108=OSC1
+ParamVariation109=ParameterName=Simulation|VariantValue=
+ParamDesignator109=OSC1
+ParamVariation110=ParameterName=SMD|VariantValue=Yes
+ParamDesignator110=OSC1
+ParamVariation111=ParameterName=Socket|VariantValue=No
+ParamDesignator111=OSC1
+ParamVariation112=ParameterName=Value|VariantValue=0.2-800MHz
+ParamDesignator112=OSC1
+Variation31=Designator=OSC3|UniqueId=\OIMUOFHT\NKLWODKB|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\Users\PS\Documents\liby\CernLib\CernLib\ICs And Semiconductors.DbLib/Crystals & Oscillators|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=ICs And Semiconductors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Crystals & Oscillators|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=OSC_SILICON-LAB_SI549-A|AltLibLink_IsSameFootprint=True
+ParamVariation113=ParameterName=Comment|VariantValue==Value
 ParamDesignator113=OSC3
-ParamVariation114=ParameterName=Signal Integrity|VariantValue= 
+ParamVariation114=ParameterName=Bonding|VariantValue=No
 ParamDesignator114=OSC3
-ParamVariation115=ParameterName=Simulation|VariantValue= 
+ParamVariation115=ParameterName=ComponentHeight|VariantValue=1.33mm
 ParamDesignator115=OSC3
-ParamVariation116=ParameterName=SMD|VariantValue=Yes
+ParamVariation116=ParameterName=Component Kind|VariantValue=Standard
 ParamDesignator116=OSC3
-ParamVariation117=ParameterName=Socket|VariantValue=No
+ParamVariation117=ParameterName=Component Type|VariantValue=Standard
 ParamDesignator117=OSC3
-ParamVariation118=ParameterName=Value|VariantValue=0.2-800MHz
+ParamVariation118=ParameterName=CreateDate|VariantValue=27.11.2019
 ParamDesignator118=OSC3
-Variation60=Designator=C294|UniqueId=\BSJCUYDM|Kind=1|AlternatePart= 
-Variation61=Designator=C298|UniqueId=\OHOHCLMK|Kind=1|AlternatePart= 
-Variation62=Designator=IC44|UniqueId=\DOXAMTBP\RELGOESP|Kind=1|AlternatePart= 
-Variation63=Designator=IC45|UniqueId=\DOXAMTBP\HZDGDHQK|Kind=1|AlternatePart= 
-Variation64=Designator=C379|UniqueId=\DOXAMTBP\ZHXFIXXU|Kind=1|AlternatePart= 
-Variation65=Designator=R115|UniqueId=\DOXAMTBP\HHHDJAWQ|Kind=1|AlternatePart= 
-Variation66=Designator=R116|UniqueId=\DOXAMTBP\GIXXMDIW|Kind=1|AlternatePart= 
-Variation67=Designator=IC42|UniqueId=\DOXAMTBP\VVLPTZEV|Kind=1|AlternatePart= 
-Variation68=Designator=IC43|UniqueId=\DOXAMTBP\FQDRCEMS|Kind=1|AlternatePart= 
-Variation69=Designator=C378|UniqueId=\DOXAMTBP\PORTVHSJ|Kind=1|AlternatePart= 
-Variation70=Designator=C377|UniqueId=\DOXAMTBP\TBSQBKOP|Kind=1|AlternatePart= 
-Variation71=Designator=C361|UniqueId=\RGZRPHNL\ALHGDBCZ\EGVMOGYJ|Kind=0|AlternatePart= 
-Variation72=Designator=C366|UniqueId=\RGZRPHNL\ALHGDBCZ\XYFEPNTI|Kind=1|AlternatePart= 
-Variation73=Designator=C367|UniqueId=\RGZRPHNL\ALHGDBCZ\HVVMDCYK|Kind=1|AlternatePart= 
-Variation74=Designator=C372|UniqueId=\RGZRPHNL\ALHGDBCZ\GTQFMMNY|Kind=1|AlternatePart= 
-Variation75=Designator=C373|UniqueId=\RGZRPHNL\ALHGDBCZ\NHGXZQQU|Kind=1|AlternatePart= 
-Variation76=Designator=IC38|UniqueId=\RGZRPHNL\ALHGDBCZ\WCUUKZYM|Kind=1|AlternatePart= 
-Variation77=Designator=IC35|UniqueId=\RGZRPHNL\ALHGDBCZ\ETFRFXAI|Kind=1|AlternatePart= 
-Variation78=Designator=IC33|UniqueId=\RGZRPHNL\ALHGDBCZ\ISUXUYMF|Kind=1|AlternatePart= 
-Variation79=Designator=IC34|UniqueId=\RGZRPHNL\ALHGDBCZ\ONLBFREU|Kind=1|AlternatePart= 
-Variation80=Designator=IC36|UniqueId=\RGZRPHNL\ALHGDBCZ\NFVEGEUB|Kind=1|AlternatePart= 
-Variation81=Designator=R92|UniqueId=\RGZRPHNL\ALHGDBCZ\UMZEMMJK|Kind=0|AlternatePart= 
-Variation82=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart= 
-ParamVariationCount=118
+ParamVariation119=ParameterName=Database Table Name|VariantValue=Crystals & Oscillators
+ParamDesignator119=OSC3
+ParamVariation120=ParameterName=Description|VariantValue=Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
+ParamDesignator120=OSC3
+ParamVariation121=ParameterName=Footprint|VariantValue=OSC_SILICON-LAB_SI549-A
+ParamDesignator121=OSC3
+ParamVariation122=ParameterName=HelpURL|VariantValue=\\cern.ch\dfs\Applications\Altium\Datasheets\OSC_SILICON-LAB_SI549.pdf
+ParamDesignator122=OSC3
+ParamVariation123=ParameterName=Ibis Model|VariantValue=
+ParamDesignator123=OSC3
+ParamVariation124=ParameterName=LatestRevisionDate|VariantValue=02.12.2019
+ParamDesignator124=OSC3
+ParamVariation125=ParameterName=Library Reference|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
+ParamDesignator125=OSC3
+ParamVariation126=ParameterName=Manufacturer|VariantValue=SILICON LABS
+ParamDesignator126=OSC3
+ParamVariation127=ParameterName=Manufacturer Part Number|VariantValue=549BACB001937ABG
+ParamDesignator127=OSC3
+ParamVariation128=ParameterName=Mounted|VariantValue=Yes
+ParamDesignator128=OSC3
+ParamVariation129=ParameterName=PackageDescription|VariantValue=Oscillator Si549 Series, 8 pins, 5x7mm
+ParamDesignator129=OSC3
+ParamVariation130=ParameterName=Part Description|VariantValue=0.2-800MHz, 1.8V/2.5V/3.3V ±20ppm LVDS, Ultra Low Jitter I2C Programmable Crystal Oscillator (XO), Si549 Series
+ParamDesignator130=OSC3
+ParamVariation131=ParameterName=Part Number|VariantValue=OSC_0.2-800MHZ_SILICON-LAB_549BACB001937ABG
+ParamDesignator131=OSC3
+ParamVariation132=ParameterName=PCB3D|VariantValue=
+ParamDesignator132=OSC3
+ParamVariation133=ParameterName=Pin Count|VariantValue=8
+ParamDesignator133=OSC3
+ParamVariation134=ParameterName=Pin Info|VariantValue=
+ParamDesignator134=OSC3
+ParamVariation135=ParameterName=PressFit|VariantValue=No
+ParamDesignator135=OSC3
+ParamVariation136=ParameterName=Sense|VariantValue=No
+ParamDesignator136=OSC3
+ParamVariation137=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator137=OSC3
+ParamVariation138=ParameterName=Simulation|VariantValue=
+ParamDesignator138=OSC3
+ParamVariation139=ParameterName=SMD|VariantValue=Yes
+ParamDesignator139=OSC3
+ParamVariation140=ParameterName=Socket|VariantValue=No
+ParamDesignator140=OSC3
+ParamVariation141=ParameterName=Value|VariantValue=0.2-800MHz
+ParamDesignator141=OSC3
+Variation32=Designator=IC44|UniqueId=\DOXAMTBP\RELGOESP|Kind=1|AlternatePart==Device
+ParamVariation142=ParameterName=Comment|VariantValue==Device
+ParamDesignator142=IC44
+Variation33=Designator=IC45|UniqueId=\DOXAMTBP\HZDGDHQK|Kind=1|AlternatePart==Device
+ParamVariation143=ParameterName=Comment|VariantValue==Device
+ParamDesignator143=IC45
+Variation34=Designator=C379|UniqueId=\DOXAMTBP\ZHXFIXXU|Kind=1|AlternatePart==Value
+ParamVariation144=ParameterName=Comment|VariantValue==Value
+ParamDesignator144=C379
+Variation35=Designator=R115|UniqueId=\DOXAMTBP\HHHDJAWQ|Kind=1|AlternatePart==Value
+ParamVariation145=ParameterName=Comment|VariantValue==Value
+ParamDesignator145=R115
+Variation36=Designator=R116|UniqueId=\DOXAMTBP\GIXXMDIW|Kind=1|AlternatePart==Value
+ParamVariation146=ParameterName=Comment|VariantValue==Value
+ParamDesignator146=R116
+Variation37=Designator=IC42|UniqueId=\DOXAMTBP\VVLPTZEV|Kind=1|AlternatePart==Device
+ParamVariation147=ParameterName=Comment|VariantValue==Device
+ParamDesignator147=IC42
+Variation38=Designator=IC43|UniqueId=\DOXAMTBP\FQDRCEMS|Kind=1|AlternatePart==Device
+ParamVariation148=ParameterName=Comment|VariantValue==Device
+ParamDesignator148=IC43
+Variation39=Designator=C378|UniqueId=\DOXAMTBP\PORTVHSJ|Kind=1|AlternatePart==Value
+ParamVariation149=ParameterName=Comment|VariantValue==Value
+ParamDesignator149=C378
+Variation40=Designator=C377|UniqueId=\DOXAMTBP\TBSQBKOP|Kind=1|AlternatePart==Value
+ParamVariation150=ParameterName=Comment|VariantValue==Value
+ParamDesignator150=C377
+Variation41=Designator=C366|UniqueId=\RGZRPHNL\ALHGDBCZ\XYFEPNTI|Kind=1|AlternatePart=
+Variation42=Designator=C367|UniqueId=\RGZRPHNL\ALHGDBCZ\HVVMDCYK|Kind=1|AlternatePart=
+Variation43=Designator=C372|UniqueId=\RGZRPHNL\ALHGDBCZ\GTQFMMNY|Kind=1|AlternatePart=
+Variation44=Designator=C373|UniqueId=\RGZRPHNL\ALHGDBCZ\NHGXZQQU|Kind=1|AlternatePart=
+Variation45=Designator=IC38|UniqueId=\RGZRPHNL\ALHGDBCZ\WCUUKZYM|Kind=1|AlternatePart==Device
+ParamVariation151=ParameterName=Comment|VariantValue==Device
+ParamDesignator151=IC38
+Variation46=Designator=IC35|UniqueId=\RGZRPHNL\ALHGDBCZ\ETFRFXAI|Kind=1|AlternatePart==Device
+ParamVariation152=ParameterName=Comment|VariantValue==Device
+ParamDesignator152=IC35
+Variation47=Designator=IC33|UniqueId=\RGZRPHNL\ALHGDBCZ\ISUXUYMF|Kind=1|AlternatePart==Device
+ParamVariation153=ParameterName=Comment|VariantValue==Device
+ParamDesignator153=IC33
+Variation48=Designator=IC34|UniqueId=\RGZRPHNL\ALHGDBCZ\ONLBFREU|Kind=1|AlternatePart==Device
+ParamVariation154=ParameterName=Comment|VariantValue==Device
+ParamDesignator154=IC34
+Variation49=Designator=IC36|UniqueId=\RGZRPHNL\ALHGDBCZ\NFVEGEUB|Kind=1|AlternatePart==Device
+ParamVariation155=ParameterName=Comment|VariantValue==Device
+ParamDesignator155=IC36
+Variation50=Designator=R122|UniqueId=\DOXAMTBP\GPBSILVW|Kind=1|AlternatePart==Value
+ParamVariation156=ParameterName=Comment|VariantValue==Value
+ParamDesignator156=R122
+ParamVariationCount=156
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Kasli-SOC\Design Rule Check - Kasli-SOC.html
@@ -1033,6 +1161,44 @@ ConfigurationType=
 
 [Generic_EDE]
 OutputDir=
+
+[Generic_SmartPDF]
+AutoOpenFile=-1
+AutoOpenOutJob=-1
+
+[Generic_SmartPDFSettings]
+ProjectMode=-1
+ZoomPrecision=50
+AddNetsInformation=-1
+AddNetPins=-1
+AddNetNetLabels=-1
+AddNetPorts=-1
+ShowComponentParameters=-1
+GlobalBookmarks=0
+ExportBOM=-1
+TemplateFilename=
+TemplateStoreRelative=-1
+PCB_PrintColor=1
+SCH_PrintColor=0
+PrintQuality=-3
+SCH_ShowNoErc=-1
+SCH_ShowParameter=-1
+SCH_ShowProbes=-1
+SCH_ShowBlankets=-1
+SCH_NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle
+SCH_ShowNote=-1
+SCH_ShowNoteCollapsed=-1
+Wir_PrintColor=0
+Ldr_PrintColor=0
+SCH_ExpandLogicalToPhysical=-1
+SCH_VariantName=Si549 CMOS
+SCH_ExpandComponentDesignators=-1
+SCH_ExpandNetlabels=0
+SCH_ExpandPorts=0
+SCH_ExpandSheetNumber=0
+SCH_ExpandDocumentNumber=0
+SCH_HasExpandLogicalToPhysicalSheets=-1
+SaveSettingsToOutJob=0
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1285,6 +1451,11 @@ OutputDocumentPath3=
 OutputVariantName3=[No Variations]
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+OutputType4=Wire Bonding Table
+OutputName4=Wire Bonding Table Report
+OutputDocumentPath4=
+OutputVariantName4=[No Variations]
+OutputDefault4=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -1456,102 +1627,6 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-OutputType2=Text Print
-OutputName2=Text Print
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType3=Text Print
-OutputName3=Text Print
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType4=Text Print
-OutputName4=Text Print
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
-PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType5=Text Print
-OutputName5=Text Print
-OutputDocumentPath5=
-OutputVariantName5=
-OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType6=Text Print
-OutputName6=Text Print
-OutputDocumentPath6=
-OutputVariantName6=
-OutputDefault6=0
-PageOptions6=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType7=Text Print
-OutputName7=Text Print
-OutputDocumentPath7=
-OutputVariantName7=
-OutputDefault7=0
-PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType8=Text Print
-OutputName8=Text Print
-OutputDocumentPath8=
-OutputVariantName8=
-OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Text Print
-OutputName9=Text Print
-OutputDocumentPath9=
-OutputVariantName9=
-OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType10=Text Print
-OutputName10=Text Print
-OutputDocumentPath10=
-OutputVariantName10=
-OutputDefault10=0
-PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType11=Text Print
-OutputName11=Text Print
-OutputDocumentPath11=
-OutputVariantName11=
-OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType12=Text Print
-OutputName12=Text Print
-OutputDocumentPath12=
-OutputVariantName12=
-OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType13=Text Print
-OutputName13=Text Print
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType14=Text Print
-OutputName14=Text Print
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType15=Text Print
-OutputName15=Text Print
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType16=Text Print
-OutputName16=Text Print
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType17=Text Print
-OutputName17=Text Print
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -1795,6 +1870,45 @@ Type117=1
 Type118=1
 Type119=1
 Type120=1
+Type121=1
+Type122=1
+Type123=1
+Type124=1
+Type125=1
+Type126=1
+Type127=1
+Type128=1
+Type129=1
+Type130=1
+Type131=1
+Type132=1
+Type133=1
+Type134=1
+Type135=1
+Type136=1
+Type137=1
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=1
+Type148=1
+Type149=1
+Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -1865,6 +1979,25 @@ Type65=1
 Type66=1
 Type67=1
 Type68=1
+Type69=1
+Type70=1
+Type71=1
+Type72=1
+Type73=1
+Type74=1
+Type75=1
+Type76=1
+Type77=1
+Type78=1
+Type79=1
+Type80=1
+Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1986,6 +2119,7 @@ Type116=2
 Type117=3
 Type118=3
 Type119=3
+MultiChannelAlternate=0
 AlternateItemFail=3
 Type122=2
 Type123=1
@@ -1993,6 +2127,42 @@ Type124=1
 Type125=1
 Type126=1
 Type127=1
+Type128=2
+Type129=2
+Type130=2
+Type131=2
+Type132=2
+Type133=2
+Type134=2
+Type135=2
+Type136=2
+Type137=2
+Type138=1
+Type139=1
+Type140=1
+Type141=1
+Type142=1
+Type143=1
+Type144=1
+Type145=1
+Type146=1
+Type147=2
+Type148=2
+Type149=2
+Type150=2
+Type151=2
+Type152=1
+Type153=1
+Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWE
@@ -3486,4 +3656,24 @@ ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|Us
 
 [SmartPDF]
 PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=DesignatorDisplayMode=Physical|PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBoardCutouts=False|IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|IncludeViewports=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical4|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|DrillType=Regular|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical13|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer|DocumentPath=C:\Users\linuswck\Desktop\kasli-soc-linuswck\Kasli-SOC\Panel\Kasli-SOC_Panel.PcbDoc
 
